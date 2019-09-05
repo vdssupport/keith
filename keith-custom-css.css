@@ -20,14 +20,14 @@ html {
 
 header.header-main {
   background-color: #87D64F;
-  height:auto;
+  height:10.5em;
 }
 
 .logo {
   background: url('//vdssupport.github.io/keith/kfuniversitylogo.png') top center no-repeat;
   display: inline-block;
   max-width: 400px !important;
-  background-size: auto;
+  background-size: contain;
 }
 
 header.header-page {
