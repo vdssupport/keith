@@ -20,7 +20,7 @@ html {
 
 header.header-main {
   background-color: #87D64F;
-  height:0 auto;
+  height:inherit;
 }
 
 .logo {
