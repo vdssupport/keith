@@ -28,7 +28,6 @@ header.header-main {
   display: inline-block;
   max-width: 400px !important;
   background-size: contain;
-  height:auto;
 }
 
 header.header-page {
