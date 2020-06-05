@@ -24,14 +24,14 @@ header.header-main {
 }
 
 .logo {
-  background: url('https://vdssupport.github.io/keith/logo_light.png') top center no-repeat;
+  background: url('//{{Logo_URL}}') top center no-repeat;
   display: inline-block;
   max-width: 400px !important;
   background-size: contain;
 }
 
 header.header-page {
-  background-color:#8b6767;
+  background-color:#{{Color_2}};
 }
 
 .header-page .tabs li a {
