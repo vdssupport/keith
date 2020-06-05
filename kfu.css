@@ -1,17 +1,17 @@
 /*
-{{Color_1}}: (don't include the '#')
-{{Color_1_Shade}}: #{{Color_1_Shade}}; (goto http://www.color-hex.com/color/{{Color_1}} ; use the second Shade -- just needs to be a little bit darker.)
+8b6767: (don't include the '#')
+{{Color_1_Shade}}: #{{Color_1_Shade}}; (goto http://www.color-hex.com/color/8b6767 ; use the second Shade -- just needs to be a little bit darker.)
 {{Color_2}}: (don't include the '#')
 {{Color_2_Tint}}: #{{Color_2_Tint}}; (goto http://www.color-hex.com/color/{{Color_2}} ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
 {{Logo_URL}}: {{Logo_URL}} i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
 */
 
 html {
-  background: #{{Color_1}};
+  background: #8b6767;
 }
 
 .splash {
-  background-color: #{{Color_1}};
+  background-color: #8b6767;
 }
 
 .splash .loading path {
@@ -19,12 +19,12 @@ html {
 }
 
 header.header-main {
-  background-color: #{{Color_1}};
+  background-color: #8b6767;
   height:10.5em;
 }
 
 .logo {
-  background: url('//{{Logo_URL}}') top center no-repeat;
+  background: url('//vdssupport.github.io/keith/kfuniversitylogo.png') top center no-repeat;
   display: inline-block;
   max-width: 400px !important;
   background-size: contain;
@@ -47,11 +47,11 @@ header.header-page {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #{{Color_1}};
+    border-bottom-color: #8b6767;
 }
 
 .header-page .buttons button {
-  background-color: #{{Color_1}};
+  background-color: #8b6767;
   color: #fff;
 }
 
@@ -64,7 +64,7 @@ header.header-page {
 .header-page .buttons button:focus 
 {
   background-color: #{{Color_2_Tint}};
-  color: #{{Color_1}};
+  color: #8b6767;
 
   /* Alternative if the above doesn't look so great.
   background-color: #{{Color_2}};
@@ -74,7 +74,7 @@ header.header-page {
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #{{Color_1}};
+    background-color: #8b6767;
     color: #fff;
 }
 
@@ -96,7 +96,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #{{Color_1}};
+    background-color: #8b6767;
 }
 
 router-view .buttons button.primary:hover,
@@ -142,7 +142,7 @@ table td {
 }
 
 .footer {
-    background: #{{Color_1}};	
+    background: #8b6767;	
 }
 
 /* Uncomment this block if the organization has a Plus Account.
