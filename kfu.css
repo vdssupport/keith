@@ -142,7 +142,7 @@ table td {
 }
 
 .footer {
-    background: #8b6767;	
+    background: #{{Color_1}};	
 }
 
 /* Uncomment this block if the organization has a Plus Account.
