@@ -6,37 +6,37 @@
 {{Logo_URL}}: {{Logo_URL}} i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
 */
 
-
 html {
-  background: #87D64F;
+  background: #{{Color_1}};
 }
 
 .splash {
-  background-color: #87D64F;
+  background-color: #{{Color_1}};
 }
 
 .splash .loading path {
+  fill: #fff;
 }
 
 header.header-main {
-  background-color: #8b6767;
-  
+  background-color: #{{Color_1}};
+  height:10.5em;
 }
 
 .logo {
-  background: url('//vdssupport.github.io/keith/kfuniversitylogo.png') top center no-repeat;
+  background: url('//{{Logo_URL}}') top center no-repeat;
   display: inline-block;
   max-width: 400px !important;
   background-size: contain;
 }
 
 header.header-page {
-  background-color:#dce1da;
+  background-color:#{{Color_2}};
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#dce1da;
-  color: #8bdf60r;
+  border-bottom-color:#{{Color_2}};
+  color: #{{Color_2_Tint}};
 }
 
 .header-page .tabs li a:hover,
@@ -47,34 +47,34 @@ header.header-page {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #87D64F;
+    border-bottom-color: #{{Color_1}};
 }
 
 .header-page .buttons button {
-  background-color: #87D64F;
+  background-color: #{{Color_1}};
   color: #fff;
 }
 
 .header-page button {
-  background-color: #dce1da;
+  background-color: #{{Color_2}};
   color: #fff;
 }
 
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #8bdf60r;
-  color: #87D64F;
+  background-color: #{{Color_2_Tint}};
+  color: #{{Color_1}};
 
   /* Alternative if the above doesn't look so great.
-  background-color: #dce1da;
+  background-color: #{{Color_2}};
   color: #fff;
    */
 }
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #87D64F;
+    background-color: #{{Color_1}};
     color: #fff;
 }
 
@@ -84,19 +84,19 @@ header.header-page {
 }
 
 button {
-    background-color: #dce1da;
+    background-color: #{{Color_2}};
 }
 
 button:hover,
 button:focus {
-    background-color: #8bdf60r;
+    background-color: #{{Color_2_Tint}};
 }
 
 router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #87D64F;
+    background-color: #{{Color_1}};
 }
 
 router-view .buttons button.primary:hover,
@@ -106,7 +106,7 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #8bdf60;
+    background-color: #{{Color_1_Shade}};
 }
 
 .user-info {
@@ -114,7 +114,7 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #8bdf60r;
+    color: #{{Color_2_Tint}};
 }
 
 .user-info a:hover,
@@ -133,16 +133,16 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #8bdf60r; /*default #007bff*/
+    color: #{{Color_2_Tint}}; /*default #007bff*/
 }
 
 table th,
 table td {
-    background: #8bdf60r;
+    background: #{{Color_2_Tint}};
 }
 
 .footer {
-    background: #8b6767;	
+    background: #{{Color_1}};	
 }
 
 /* Uncomment this block if the organization has a Plus Account.
