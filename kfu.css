@@ -19,7 +19,7 @@ html {
 }
 
 header.header-main {
-  background-color: #8B6767;
+  background-color: #{{Color_1}};
   height:10.5em;
 }
 
