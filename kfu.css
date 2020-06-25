@@ -63,8 +63,8 @@ header.header-page {
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #c915b9; /*{{Color_2_Tint}}*/
-  color: #{{Color_1}};
+  background-color: #c915b9; /*{{Color_2_Tint}}  BUTTON Hover color*/
+  color: #1a8981; /* {{Color_1}} BUTTON Hover color text */
 
   /* Alternative if the above doesn't look so great.
   background-color: #{{Color_2}};
