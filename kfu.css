@@ -89,14 +89,14 @@ button {
 
 button:hover,
 button:focus {
-    background-color: #f9fb03; /*{{Color_2_Tint}}*/
+    background-color: #f9fb03; /*{{Color_2_Tint}} I DO NOT KNOW*/
 }
 
 router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #{{Color_1}};
+    background-color: #f9fb03; /*{{Color_1}}*/
 }
 
 router-view .buttons button.primary:hover,
