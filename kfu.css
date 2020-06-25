@@ -75,7 +75,7 @@ header.header-page {
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
     background-color: #{{Color_1}};
-    color: #fff;
+    color: #f9fb03; /*fff */
 }
 
 .header-page .filters .filter:hover:after,
