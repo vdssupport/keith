@@ -106,7 +106,7 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #{{Color_1_Shade}};
+    background-color: #1a8981 ; /* {{Color_1_Shade}} */
 }
 
 .user-info {
