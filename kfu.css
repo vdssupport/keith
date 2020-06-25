@@ -90,7 +90,7 @@ button {
 
 button:hover,
 button:focus {
-    background-color: #{{Color_2_Tint}};
+    background-color: #19b834;
 }
 
 router-view .buttons button.primary,
