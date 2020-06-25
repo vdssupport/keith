@@ -51,7 +51,7 @@ header.header-page {
 }
 
 .header-page .buttons button {
-  background-color: #{{Color_1}};
+  background-color: #f9fb03; /*{{Color_1}}*/
   color: #fff;
 }
 
