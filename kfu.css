@@ -133,7 +133,7 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #{{Color_2_Tint}}; /*default #007bff*/
+    color: #64ad64; /*default #007bff -{{Color_2_Tint}} */
 }
 
 table th,
