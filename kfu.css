@@ -133,16 +133,16 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #64ad64; /*default #007bff -{{Color_2_Tint}} */
+    color: #64ad64; /*default #007bff -{{Color_2_Tint}}*/ /*side menu icons*/
 }
 
 table th,
 table td {
-    background: #{{Color_2_Tint}};
+    background: #{{Color_2_Tint}}; 
 }
 
 .footer {
-    background: #228B22;	
+    background: #228B22; /*footer*/	
 }
 
 /* Uncomment this block if the organization has a Plus Account.
