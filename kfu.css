@@ -63,7 +63,7 @@ header.header-page {
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #{{Color_2_Tint}};
+  background-color: #c915b9; /*{{Color_2_Tint}}*/
   color: #{{Color_1}};
 
   /* Alternative if the above doesn't look so great.
@@ -75,12 +75,12 @@ header.header-page {
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
     background-color: #{{Color_1}};
-    color: #c915b9; / *fff  Custom fields text before click */
+    color: #c915b9; /* fff  Custom fields text before click */
 }
 
 .header-page .filters .filter:hover:after,
 .header-page .filters .filter:focus-within:after {
-    color: #c915b9; /*fff Custom fields text after click color */
+    color: #c915b9; /* fff Custom fields text after click color */
 }
 
 button {
@@ -123,7 +123,7 @@ button.submit-login:focus
 }
 
 .open-nav {
-    color: #c915b9; /* ddd */
+    color: #c915b9; /* ddd I DONT KNOW */
 }
 
 .open-nav:hover,
