@@ -114,7 +114,7 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #8b228b;
+    color: #f9fb03; /*signout link*/
 }
 
 .user-info a:hover,
