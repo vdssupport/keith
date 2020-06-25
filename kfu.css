@@ -2,8 +2,8 @@
 /*
 19b834: (don't include the '#')
 {{Color_1_Shade}}: #{{Color_1_Shade}}; (goto http://www.color-hex.com/color/19b834 ; use the second Shade -- just needs to be a little bit darker.)
-ffc7b2 : (don't include the '#')
-{{Color_2_Tint}}: #{{Color_2_Tint}}; (goto http://www.color-hex.com/color/ffc7b2  ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
+e9fcec : (don't include the '#')
+{{Color_2_Tint}}: #{{Color_2_Tint}}; (goto http://www.color-hex.com/color/e9fcec  ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
 {{Logo_URL}}: {{Logo_URL}} i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
 */
 
@@ -32,11 +32,11 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#ffc7b2;
+  background-color:#e9fcec;
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#ffc7b2;
+  border-bottom-color:#e9fcec;
   color: #EBB2FF;
 }
 
@@ -57,7 +57,7 @@ header.header-page {
 }
 
 .header-page button {
-  background-color: #ffc7b2;
+  background-color: #e9fcec;
   color: #fff;
 }
 
@@ -68,7 +68,7 @@ header.header-page {
   color: #19b834;
 
   /* Alternative if the above doesn't look so great.
-  background-color: #ffc7b2 ;
+  background-color: #e9fcec ;
   color: #fff;
    */
 }
@@ -85,7 +85,7 @@ header.header-page {
 }
 
 button {
-    background-color: #ffc7b2;
+    background-color: #e9fcec;
 }
 
 button:hover,
