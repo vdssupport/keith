@@ -31,7 +31,7 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#d2e7d2;
+  background-color:#64ad64;
 }
 
 .header-page .tabs li a {
@@ -56,7 +56,7 @@ header.header-page {
 }
 
 .header-page button {
-  background-color: #228b22;
+  background-color: #{{Color_1}};
   color: #fff;
 }
 
