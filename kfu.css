@@ -138,7 +138,7 @@ button.submit-login:focus
 
 table th,
 table td {
-    background: #f9fb03 ; 
+    background: #f9fb03; /*main grid colors*/ 
 }
 
 .footer {
