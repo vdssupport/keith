@@ -119,7 +119,7 @@ button.submit-login:focus
 
 .user-info a:hover,
 .user-info a:focus {
-    color: #f9fb03; /*fff*/
+    color: #f9fb03; /* fff I DONT KNOW */
 }
 
 .open-nav {
@@ -129,7 +129,7 @@ button.submit-login:focus
 .open-nav:hover,
 .open-nav:focus
 {
-    color: #fff;
+    color: #f9fb03; /*fff*/
 }
 
 .admin-links .fa {
