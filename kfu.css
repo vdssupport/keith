@@ -123,13 +123,13 @@ button.submit-login:focus
 }
 
 .open-nav {
-    color: #ddd;
+    color: #c915b9; /* ddd */
 }
 
 .open-nav:hover,
 .open-nav:focus
 {
-    color: #c915b9; /*fff*/
+    color: #c915b9; /* fff  I DONT KNOW */
 }
 
 .admin-links .fa {
