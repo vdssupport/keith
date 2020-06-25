@@ -36,7 +36,7 @@ header.header-page {
 
 .header-page .tabs li a {
   border-bottom-color:#7dfb03;/*{{Color_2}}  pHoto section menu link behind*/
-  color: #{{Color_2_Tint}};
+  color: #f9fb03; /*{{Color_2_Tint}}*/
 }
 
 .header-page .tabs li a:hover,
