@@ -75,28 +75,28 @@ header.header-page {
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
     background-color: #{{Color_1}};
-    color: #c915b9; /*fff  Custom fields text */
+    color: #c915b9; / *fff  Custom fields text before click */
 }
 
 .header-page .filters .filter:hover:after,
 .header-page .filters .filter:focus-within:after {
-    color: #fff;
+    color: #c915b9; /*fff Custom fields text after click color */
 }
 
 button {
-    background-color: #f9fb03; /*{{Color_2}}  I think the history button*/
+    background-color: #f9fb03; /* {{Color_2}}  I think the history button */
 }
 
 button:hover,
 button:focus {
-    background-color: #f9fb03; /*{{Color_2_Tint}} I DO NOT KNOW*/
+    background-color: #f9fb03; /* {{Color_2_Tint}} I DO NOT KNOW */
 }
 
 router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #f9fb03; /*{{Color_1}} I DO NOT KNOW*/
+    background-color: #f9fb03; /* {{Color_1}} I DO NOT KNOW */
 }
 
 router-view .buttons button.primary:hover,
@@ -114,7 +114,7 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #f9fb03; /*signout link*/
+    color: #f9fb03; /* signout link */
 }
 
 .user-info a:hover,
@@ -129,7 +129,7 @@ button.submit-login:focus
 .open-nav:hover,
 .open-nav:focus
 {
-    color: #f9fb03; /*fff*/
+    color: #c915b9; /*fff*/
 }
 
 .admin-links .fa {
