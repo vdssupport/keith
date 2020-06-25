@@ -1,7 +1,7 @@
 
 /*
 ff4500: (don't include the '#')
-{{Color_1_Shade}}: #{{Color_1_Shade}}; (goto http://www.color-hex.com/color/ff4500 ; use the second Shade -- just needs to be a little bit darker.)
+e9fcec: #e9fcec; (goto http://www.color-hex.com/color/ff4500 ; use the second Shade -- just needs to be a little bit darker.)
 ffc7b2 : (don't include the '#')
 {{Color_2_Tint}}: #{{Color_2_Tint}}; (goto http://www.color-hex.com/color/ffc7b2  ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
 {{Logo_URL}}: {{Logo_URL}} i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
@@ -107,7 +107,7 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #{{Color_1_Shade}};
+    background-color: #e9fcec;
 }
 
 .user-info {
