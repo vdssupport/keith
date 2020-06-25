@@ -1,18 +1,18 @@
 
 /*
-ff4500: (don't include the '#')
-e9fcec: #e9fcec; (goto http://www.color-hex.com/color/ff4500 ; use the second Shade -- just needs to be a little bit darker.)
+19b834: (don't include the '#')
+e9fcec: #e9fcec; (goto http://www.color-hex.com/color/19b834 ; use the second Shade -- just needs to be a little bit darker.)
 ffc7b2 : (don't include the '#')
 {{Color_2_Tint}}: #{{Color_2_Tint}}; (goto http://www.color-hex.com/color/ffc7b2  ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
 {{Logo_URL}}: {{Logo_URL}} i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
 */
 
 html {
-  background: #ff4500;
+  background: #19b834;
 }
 
 .splash {
-  background-color: #ff4500;
+  background-color: #19b834;
 }
 
 .splash .loading path {
@@ -20,7 +20,7 @@ html {
 }
 
 header.header-main {
-  background-color: #ff4500;
+  background-color: #19b834;
   height:10.5em;
 }
 
@@ -48,11 +48,11 @@ header.header-page {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #ff4500;
+    border-bottom-color: #19b834;
 }
 
 .header-page .buttons button {
-  background-color: #ff4500;
+  background-color: #19b834;
   color: #fff;
 }
 
@@ -65,7 +65,7 @@ header.header-page {
 .header-page .buttons button:focus 
 {
   background-color: #{{Color_2_Tint}};
-  color: #ff4500;
+  color: #19b834;
 
   /* Alternative if the above doesn't look so great.
   background-color: #ffc7b2 ;
@@ -75,7 +75,7 @@ header.header-page {
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #ff4500;
+    background-color: #19b834;
     color: #fff;
 }
 
@@ -97,7 +97,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #ff4500;
+    background-color: #19b834;
 }
 
 router-view .buttons button.primary:hover,
@@ -143,7 +143,7 @@ table td {
 }
 
 .footer {
-    background: #ff4500;	
+    background: #19b834;	
 }
 
 /* Uncomment this block if the organization has a Plus Account.
@@ -159,4 +159,3 @@ button.download_button {
 	display: none;
 }
 */
-
