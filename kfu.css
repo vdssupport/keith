@@ -15,7 +15,7 @@ html {
 }
 
 .splash .loading path {
-  fill: #FF1493;
+  fill: #fff;
 }
 
 header.header-main {
@@ -36,13 +36,13 @@ header.header-page {
 
 .header-page .tabs li a {
   border-bottom-color:#7dfb03;/*{{Color_2}}  pHoto section menu link behind*/
-  color: #f9fb03; /*{{Color_2_Tint}}*/
+  color: #2cb42c; /*{{Color_2_Tint}}*/
 }
 
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
 {
-  color: #f9fb03 ; /*Pending,Approved,Denied,Downloaded,Done,Enroute links*/
+  color: #2cb42c ; /*Pending,Approved,Denied,Downloaded,Done,Enroute links*/
 }
 
 /* Keep this block only if it looks good. */
@@ -52,11 +52,11 @@ header.header-page {
 
 .header-page .buttons button {
   background-color: #1b690f; /*{{Color_1}} MAIN BUTTONS and button links*/
-  color: #f9fb03; /* fff - text in button */
+  color: #2cb42c; /* fff - text in button */
 }
 
 .header-page button {
-  background-color: #f9fb03 ; /*{{Color_1}} I DONT KNOW???*/
+  background-color: #2cb42c ; /*{{Color_1}} I DONT KNOW???*/
   color: #1b690f; /*fff I DONT KNOW */
 }
 
@@ -84,19 +84,19 @@ header.header-page {
 }
 
 button {
-    background-color: #f9fb03; /* {{Color_2}}  I think the history button */
+    background-color: #2cb42c; /* {{Color_2}}  I think the history button */
 }
 
 button:hover,
 button:focus {
-    background-color: #f9fb03; /* {{Color_2_Tint}} I DO NOT KNOW */
+    background-color: #2cb42c; /* {{Color_2_Tint}} I DO NOT KNOW */
 }
 
 router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #f9fb03; /* {{Color_1}} I DO NOT KNOW */
+    background-color: #2cb42c; /* {{Color_1}} I DO NOT KNOW */
 }
 
 router-view .buttons button.primary:hover,
@@ -110,16 +110,16 @@ button.submit-login:focus
 }
 
 .user-info {
-    color: #f9fb03; /* user account and org logged in */
+    color: #2cb42c; /* user account and org logged in */
 }
 
 .user-info a {
-    color: #f9fb03; /* signout link */
+    color: #2cb42c; /* signout link */
 }
 
 .user-info a:hover,
 .user-info a:focus {
-    color: #f9fb03; /* fff I DONT KNOW */
+    color: #2cb42c; /* fff I DONT KNOW */
 }
 
 .open-nav {
@@ -138,7 +138,7 @@ button.submit-login:focus
 
 table th,
 table td {
-    background: #f9fb03; /*main grid colors*/ 
+    background: #2cb42c; /*main grid colors*/ 
 }
 
 .footer {
