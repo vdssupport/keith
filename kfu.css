@@ -119,7 +119,7 @@ button.submit-login:focus
 
 .user-info a:hover,
 .user-info a:focus {
-    color: #{{Color_2_Tint}}; /* fff I DONT KNOW */
+    color: #003865; /* fff I DONT KNOW */
 }
 
 .open-nav {
