@@ -45,11 +45,12 @@ header.header-page {
   color: #{{Color_2_Tint}} ; /*Pending,Approved,Denied,Downloaded,Done,Enroute links*/
 }
 
-/* Keep this block only if it looks good. */
+/* Keep this block only if it looks good.  Default violet color for selected pending, approved, denied, download, done and enroute */
 .header-page .tabs a.active {
-    border-bottom-color: #{{Color_1}}; /*{{Color_1}} I DONT KNOW ???*/
+    border-bottom-color: #003865; /*{{Color_1}} I DONT KNOW ???*/
 }
 
+/*  */
 .header-page .buttons button {
   background-color: #{{Color_1}}; /*{{Color_1}} MAIN BUTTONS and button links*/
   color: #{{Color_2_Tint}}; /* fff - text in button */
