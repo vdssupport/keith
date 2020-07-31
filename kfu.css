@@ -52,12 +52,12 @@ header.header-page {
 
 .header-page .buttons button {
   background-color: #003865;
-  color: #fff;
+  color: #003865;
 }
 
 .header-page button {
   background-color: #59BEC9;
-  color: #fff;
+  color: #003865;
 }
 
 .header-page .buttons button:hover,
