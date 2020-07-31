@@ -50,7 +50,7 @@ header.header-page {
 /* Keep this block only if it looks good. */
 /* Default violet color when selected pending, approved, denied, download, done and enroute */
 .header-page .tabs a.active {
-    border-bottom-color: #{{Color_1}};
+    border-bottom-color: #003865;
 }
 
 .header-page .buttons button {
