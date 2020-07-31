@@ -31,12 +31,12 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#{{Color_2}};
+  background-color:#0061A0;
 }
 
 /*photo section menu link behind*/
 .header-page .tabs li a {
-  border-bottom-color:#{{Color_2}};
+  border-bottom-color:#0061A0;
   color: #{{Color_2_Tint}};
 }
 
@@ -59,7 +59,7 @@ header.header-page {
 }
 
 .header-page button {
-  background-color: #{{Color_2}}; /*{{Color_2}} I DONT KNOW???*/
+  background-color: #0061A0; /*0061A0 I DONT KNOW???*/
   color: #fff; /*fff I DONT KNOW */
 }
 
@@ -70,7 +70,7 @@ header.header-page {
   color: #003865; /* 003865 */
 
   /* Alternative if the above doesn't look so great.
-  background-color: #{{Color_2}};
+  background-color: #0061A0;
   color: #fff;
    */
 }
@@ -87,7 +87,7 @@ header.header-page {
 }
 
 button {
-    background-color: #{{Color_2}}; /* {{Color_2}}  I think the history button */
+    background-color: #0061A0; /* 0061A0  I think the history button */
 }
 
 button:hover,
