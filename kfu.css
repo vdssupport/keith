@@ -45,12 +45,12 @@ header.header-page {
   color: #{{Color_2_Tint}} ; /*Pending,Approved,Denied,Downloaded,Done,Enroute links*/
 }
 
-/* Keep this block only if it looks good.  Default violet color for selected pending, approved, denied, download, done and enroute */
+/* Keep this block only if it looks good. */
+/* Default violet color when selected pending, approved, denied, download, done and enroute */
 .header-page .tabs a.active {
-    border-bottom-color: #003865; /*{{Color_1}} I DONT KNOW ???*/
+    border-bottom-color: #{{Color_1}}; 
 }
 
-/*  */
 .header-page .buttons button {
   background-color: #{{Color_1}}; /*{{Color_1}} MAIN BUTTONS and button links*/
   color: #{{Color_2_Tint}}; /* fff - text in button */
@@ -115,12 +115,12 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #003865; /* signout link */
+    color: #{{Color_2_Tint}}; /* signout link */
 }
 
 .user-info a:hover,
 .user-info a:focus {
-    color: #003865; /* fff I DONT KNOW */
+    color: #{{Color_2_Tint}}; /* fff I DONT KNOW THINK it's the hover for SIGN OUT link */
 }
 
 .open-nav {
@@ -143,7 +143,7 @@ table td {
 }
 
 .footer {
-    background: #{{Color_1}}; /*footer*/	
+    background: #{{Color_1}}; /*footer*/  
 }
 
 /* Uncomment this block if the organization has a Plus Account.
@@ -154,8 +154,8 @@ img.photos--preview {
 
 /* Uncomment this block to hide the Download photos button.
    HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server), 
-	they should be migrated over to using the `EXTERNAL` download strategy rather than hiding the download button.
+  they should be migrated over to using the `EXTERNAL` download strategy rather than hiding the download button.
 button.download_button {
-	display: none;
+  display: none;
 }
 */
