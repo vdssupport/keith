@@ -24,41 +24,43 @@ header.header-main {
 }
 
 .logo {
-  background: url('https://vdssupport.github.io/keith/logo_light.png') top center no-repeat;
+  background: url('//{{Logo_URL}}') top center no-repeat;
   display: inline-block;
   max-width: 400px !important;
   background-size: contain;
 }
 
 header.header-page {
-  background-color:#{{Color_2}}; /*second header*/
+  background-color:#{{Color_2}};
 }
 
+/*photo section menu link behind*/
 .header-page .tabs li a {
-  border-bottom-color:#{{Color_2}};/*{{Color_2}}  /*photo section menu link behind*/
-  color: #{{Color_2_Tint}}; /*{{Color_2_Tint}}*/
+  border-bottom-color:#{{Color_2}};
+  color: #{{Color_2_Tint}};
 }
 
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
+
 {
-  color: #{{Color_2_Tint}} ; /*Pending,Approved,Denied,Downloaded,Done,Enroute links*/
+  color: #fff; /*Pending,Approved,Denied,Downloaded,Done,Enroute links*/
 }
 
 /* Keep this block only if it looks good. */
 /* Default violet color when selected pending, approved, denied, download, done and enroute */
 .header-page .tabs a.active {
-    border-bottom-color: #003865; 
+    border-bottom-color: #{{Color_1}};
 }
 
 .header-page .buttons button {
   background-color: #{{Color_1}}; /*{{Color_1}} MAIN BUTTONS and button links*/
-  color: #{{Color_2_Tint}}; /* fff - text in button */
+  color: #fff; /* fff - text in button */
 }
 
 .header-page button {
-  background-color: #{{Color_2_Tint}}; /*{{Color_1}} I DONT KNOW???*/
-  color: #{{Color_1}}; /*fff I DONT KNOW */
+  background-color: #{{Color_2}}; /*{{Color_2}} I DONT KNOW???*/
+  color: #fff; /*fff I DONT KNOW */
 }
 
 .header-page .buttons button:hover,
@@ -75,7 +77,7 @@ header.header-page {
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #{{Color_1}} ; /* {{Color_1}} */
+    background-color: #{{Color_1}};
     color: #fff; /* fff  Custom fields text before click */
 }
 
@@ -85,19 +87,19 @@ header.header-page {
 }
 
 button {
-    background-color: #{{Color_2_Tint}}; /* {{Color_2}}  I think the history button */
+    background-color: #{{Color_2}}; /* {{Color_2}}  I think the history button */
 }
 
 button:hover,
 button:focus {
     background-color: #{{Color_2_Tint}}; /* {{Color_2_Tint}} I DO NOT KNOW */
-}
+} 
 
 router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #{{Color_2_Tint}}; /* {{Color_1}} I DO NOT KNOW */
+    background-color: #{{Color_1}}; /* {{Color_1}} I DO NOT KNOW */
 }
 
 router-view .buttons button.primary:hover,
@@ -107,20 +109,20 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #{{Color_1_Shade}} ; /* {{Color_1_Shade}} */
+    background-color: #{{Color_1_Shade}}; /* {{Color_1_Shade}} */
 }
 
 .user-info {
-    color: #{{Color_2_Tint}}; /* user account and org logged in */
+    color: #fff; /* user account and org logged in */
 }
 
 .user-info a {
-    color: #{{Color_2_Tint}}; /* signout link */
+    color: #{{Color_2_Tint}}; /* signout link */ 
 }
 
 .user-info a:hover,
 .user-info a:focus {
-    color: #{{Color_2_Tint}}; /* fff I DONT KNOW THINK it's the hover for SIGN OUT link */
+    color: #fff; /* fff I DONT KNOW THINK it's the hover for SIGN OUT link */
 }
 
 .open-nav {
@@ -130,20 +132,20 @@ button.submit-login:focus
 .open-nav:hover,
 .open-nav:focus
 {
-    color: #fff; /* fff  I DONT KNOW */
+    color: #fff; /* ddd I DONT KNOW */
 }
 
 .admin-links .fa {
-    color: #{{Color_2}}; /*default #007bff -{{Color_2_Tint}}*/ /*side menu icons*/
+    color: #{{Color_2_Tint}}; /*default #007bff - default #007bff -{{Color_2_Tint}} side menu icons*/
 }
 
 table th,
 table td {
-    background: #{{Color_2_Tint}}; /*main grid colors*/ 
+    background: #{{Color_2_Tint}}; /*main grid colors*/
 }
 
 .footer {
-    background: #{{Color_1}}; /*footer*/  
+    background: #{{Color_1}};	 /*footer*/
 }
 
 /* Uncomment this block if the organization has a Plus Account.
@@ -154,8 +156,8 @@ img.photos--preview {
 
 /* Uncomment this block to hide the Download photos button.
    HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server), 
-  they should be migrated over to using the `EXTERNAL` download strategy rather than hiding the download button.
+	they should be migrated over to using the `EXTERNAL` download strategy rather than hiding the download button.
 button.download_button {
-  display: none;
+	display: none;
 }
 */
