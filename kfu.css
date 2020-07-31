@@ -1,17 +1,17 @@
 /*
-{{Color_1}}: (don't include the '#')
-{{Color_1_Shade}}: #{{Color_1_Shade}}; (goto http://www.color-hex.com/color/{{Color_1}} ; use the second Shade -- just needs to be a little bit darker.)
-{{Color_2}}: (don't include the '#')
-{{Color_2_Tint}}: #{{Color_2_Tint}}; (goto http://www.color-hex.com/color/{{Color_2}} ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
+{{Color__1}}: (don't include the '#')
+{{Color__1__Shade}}: #{{Color__1__Shade}}; (goto http://www.color-hex.com/color/{{Color__1}} ; use the second Shade -- just needs to be a little bit darker.)
+{{Color__2}}: (don't include the '#')
+{{Color__2__Tint}}: #{{Color__2__Tint}}; (goto http://www.color-hex.com/color/{{Color__2}} ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color__1 and Color__2; select the suggested text color that works for both backgrounds)
 {{Logo_URL}}: {{Logo_URL}} i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
 */
 
 html {
-  background: #{{Color_1}};
+  background: #003865;
 }
 
 .splash {
-  background-color: #{{Color_1}};
+  background-color: #003865;
 }
 
 .splash .loading path {
@@ -19,7 +19,7 @@ html {
 }
 
 header.header-main {
-  background-color: #{{Color_1}};
+  background-color: #003865;
   height:10.5em;
 }
 
@@ -48,13 +48,13 @@ header.header-page {
 }
 
 /* Keep this block only if it looks good. */
-/* Default violet color when selected pending, approved, denied, download, done and enroute */
+/* Default violet color when selected pending, approved, denied, download, done and enroute 003865 */
 .header-page .tabs a.active {
     border-bottom-color: #003865;
 }
 
 .header-page .buttons button {
-  background-color: #{{Color_1}}; /*{{Color_1}} MAIN BUTTONS and button links*/
+  background-color: #003865; /*003865 MAIN BUTTONS and button links*/
   color: #fff; /* fff - text in button */
 }
 
@@ -67,7 +67,7 @@ header.header-page {
 .header-page .buttons button:focus 
 {
   background-color: #{{Color_2_Tint}}; /*{{Color_2_Tint}}  BUTTON Hover color*/
-  color: #{{Color_1}}; /* {{Color_1}} */
+  color: #003865; /* 003865 */
 
   /* Alternative if the above doesn't look so great.
   background-color: #{{Color_2}};
@@ -77,7 +77,7 @@ header.header-page {
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #{{Color_1}};
+    background-color: #003865;
     color: #fff; /* fff  Custom fields text before click */
 }
 
@@ -99,7 +99,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #{{Color_1}}; /* {{Color_1}} I DO NOT KNOW */
+    background-color: #003865; /* 003865 I DO NOT KNOW */
 }
 
 router-view .buttons button.primary:hover,
@@ -145,7 +145,7 @@ table td {
 }
 
 .footer {
-    background: #{{Color_1}};	 /*footer*/
+    background: #003865;	 /*footer*/
 }
 
 /* Uncomment this block if the organization has a Plus Account.
