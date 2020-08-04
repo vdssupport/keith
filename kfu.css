@@ -1,19 +1,17 @@
 /*
-{{Color__1}}: (don't include the '#')
-{{Color__1__Shade}}: #{{Color__1__Shade}}; (goto http://www.color-hex.com/color/{{Color__1}} ; use the second Shade -- just needs to be a little bit darker.)
-{{Color__2}}: (don't include the '#')
-{{Color__2__Tint}}: #{{Color__2__Tint}}; (goto http://www.color-hex.com/color/{{Color__2}} ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color__1 and Color__2; select the suggested text color that works for both backgrounds)
+296e01: (don't include the '#')
+{{Color_1_Shade}}: #{{Color_1_Shade}}; (goto http://www.color-hex.com/color/296e01 ; use the second Shade -- just needs to be a little bit darker.)
+{{Color_2}}: (don't include the '#')
+{{Color_2_Tint}}: #{{Color_2_Tint}}; (goto http://www.color-hex.com/color/{{Color_2}} ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
 {{Logo_URL}}: {{Logo_URL}} i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
 */
 
 html {
-  background: #296e01
-296e01;
+  background: #296e01;
 }
 
 .splash {
-  background-color: #296e01
-296e01;
+  background-color: #296e01;
 }
 
 .splash .loading path {
@@ -21,8 +19,7 @@ html {
 }
 
 header.header-main {
-  background-color: #296e01
-296e01;
+  background-color: #296e01;
   height:10.5em;
 }
 
@@ -34,84 +31,72 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#0061A0;
+  background-color:#{{Color_2}};
 }
 
-/*photo section menu link behind*/
 .header-page .tabs li a {
-  border-bottom-color:#0061A0;
+  border-bottom-color:#{{Color_2}};
   color: #{{Color_2_Tint}};
 }
 
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
-
 {
-  color: #fff; /*Pending,Approved,Denied,Downloaded,Done,Enroute links*/
+  color: #fff;
 }
 
 /* Keep this block only if it looks good. */
-/* Default violet color when selected pending, approved, denied, download, done and enroute 296e01
-296e01 */
 .header-page .tabs a.active {
-    border-bottom-color: #296e01
-296e01;
+    border-bottom-color: #296e01;
 }
 
 .header-page .buttons button {
-  background-color: #296e01
-296e01; /*296e01
-296e01 MAIN BUTTONS and button links*/
-  color: #fff; /* fff - text in button */
+  background-color: #296e01;
+  color: #fff;
 }
 
 .header-page button {
-  background-color: #0061A0; /*0061A0 I DONT KNOW???*/
-  color: #fff; /*fff I DONT KNOW */
+  background-color: #{{Color_2}};
+  color: #fff;
 }
 
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #{{Color_2_Tint}}; /*{{Color_2_Tint}}  BUTTON Hover color*/
-  color: #296e01
-296e01; /* 296e01
-296e01 */
+  background-color: #{{Color_2_Tint}};
+  color: #296e01;
 
   /* Alternative if the above doesn't look so great.
-  background-color: #0061A0;
+  background-color: #{{Color_2}};
   color: #fff;
    */
 }
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #296e01
-296e01;
-    color: #fff; /* fff  Custom fields text before click */
+    background-color: #296e01;
+    color: #fff;
 }
 
 .header-page .filters .filter:hover:after,
 .header-page .filters .filter:focus-within:after {
-    color: #fff; /* fff Custom fields text after click color */
+    color: #fff;
 }
 
 button {
-    background-color: #0061A0; /* 0061A0  I think the history button */
+    background-color: #{{Color_2}};
 }
 
 button:hover,
 button:focus {
-    background-color: #{{Color_2_Tint}}; /* {{Color_2_Tint}} I DO NOT KNOW */
-} 
+    background-color: #{{Color_2_Tint}};
+}
 
 router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #296e01
-296e01; /* 296e01
-296e01 I DO NOT KNOW */
+    background-color: #296e01;
 }
 
 router-view .buttons button.primary:hover,
@@ -121,44 +106,43 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #{{Color_1_Shade}}; /* {{Color_1_Shade}} */
+    background-color: #{{Color_1_Shade}};
 }
 
 .user-info {
-    color: #fff; /* user account and org logged in */
+    color: #fff;
 }
 
 .user-info a {
-    color: #{{Color_2_Tint}}; /* signout link */ 
+    color: #{{Color_2_Tint}};
 }
 
 .user-info a:hover,
 .user-info a:focus {
-    color: #fff; /* fff I DONT KNOW THINK it's the hover for SIGN OUT link */
+    color: #fff;
 }
 
 .open-nav {
-    color: #ddd; /* ddd I DONT KNOW */
+    color: #ddd;
 }
 
 .open-nav:hover,
 .open-nav:focus
 {
-    color: #fff; /* ddd I DONT KNOW */
+    color: #fff;
 }
 
 .admin-links .fa {
-    color: #{{Color_2_Tint}}; /*default #007bff - default #007bff -{{Color_2_Tint}} side menu icons*/
+    color: #{{Color_2_Tint}}; /*default #007bff*/
 }
 
 table th,
 table td {
-    background: #{{Color_2_Tint}}; /*main grid colors*/
+    background: #{{Color_2_Tint}};
 }
 
 .footer {
-    background: #296e01
-296e01;	 /*footer*/
+    background: #296e01;	
 }
 
 /* Uncomment this block if the organization has a Plus Account.
