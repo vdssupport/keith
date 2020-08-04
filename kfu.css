@@ -7,11 +7,11 @@
 */
 
 html {
-  background: #003865;
+  background: #16e135;
 }
 
 .splash {
-  background-color: #003865;
+  background-color: #16e135;
 }
 
 .splash .loading path {
@@ -19,7 +19,7 @@ html {
 }
 
 header.header-main {
-  background-color: #003865;
+  background-color: #16e135;
   height:10.5em;
 }
 
@@ -48,13 +48,13 @@ header.header-page {
 }
 
 /* Keep this block only if it looks good. */
-/* Default violet color when selected pending, approved, denied, download, done and enroute 003865 */
+/* Default violet color when selected pending, approved, denied, download, done and enroute 16e135 */
 .header-page .tabs a.active {
-    border-bottom-color: #003865;
+    border-bottom-color: #16e135;
 }
 
 .header-page .buttons button {
-  background-color: #003865; /*003865 MAIN BUTTONS and button links*/
+  background-color: #16e135; /*16e135 MAIN BUTTONS and button links*/
   color: #fff; /* fff - text in button */
 }
 
@@ -67,7 +67,7 @@ header.header-page {
 .header-page .buttons button:focus 
 {
   background-color: #{{Color_2_Tint}}; /*{{Color_2_Tint}}  BUTTON Hover color*/
-  color: #003865; /* 003865 */
+  color: #16e135; /* 16e135 */
 
   /* Alternative if the above doesn't look so great.
   background-color: #0061A0;
@@ -77,7 +77,7 @@ header.header-page {
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #003865;
+    background-color: #16e135;
     color: #fff; /* fff  Custom fields text before click */
 }
 
@@ -99,7 +99,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #003865; /* 003865 I DO NOT KNOW */
+    background-color: #16e135; /* 16e135 I DO NOT KNOW */
 }
 
 router-view .buttons button.primary:hover,
@@ -145,7 +145,7 @@ table td {
 }
 
 .footer {
-    background: #003865;	 /*footer*/
+    background: #16e135;	 /*footer*/
 }
 
 /* Uncomment this block if the organization has a Plus Account.
