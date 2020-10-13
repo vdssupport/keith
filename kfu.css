@@ -145,6 +145,19 @@ table td {
     background: #296e01;	
 }
 
+#help-scout-beacon-background {
+height: 80%;
+width: 80%;
+background: white;
+border-radius: 50%;
+}
+
+#help-scout-beacon-icon {
+font-size: 4em;
+color: #87e825;
+}
+
+
 /* Uncomment this block if the organization has a Plus Account.
 img.photos--preview {
     border-bottom: 0px;
